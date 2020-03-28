@@ -1,0 +1,19 @@
+id: tasks
+type: table_list
+database_table: tasks
+ui_framework: w3css
+row_count: 5
+sql_query: WHERE status='In Progress' ORDER BY updated_on DESC
+table_cols: [{"title": "Id", "type": "autogen", "extra": ""}, {"title": "Title", "type": "db", "extra": "title"}, {"title": "Status", "type": "db", "extra": "status"}, {"title": "Updated On", "type": "db", "extra": "updated_on"}, {"title": "Hours", "type": "callback", "extra": "{'object': 'timetracking', 'function': 'GetHoursWorked', 'params': 'id'}"}, {"title": "Work Log", "type": "icon-col", "extra": "{'link': '/time_tracking/list/1/{id}', 'title': 'Track Task Time', 'onclick': '', 'icon': 'far fa-clock'}"}, {"title": "Edit", "type": "edit", "extra": "{'link': '/task/edit/{id}', 'title': 'Edit Task'}"}, {"title": "Delete", "type": "delete", "extra": "{'link': '/task/delete/{id}', 'title': 'Delete Task'}"}]
+all_items_text: All Tasks
+new_item_text: New Task
+delete_btn_title: Delete Task
+edit_btn_title: Edit Task
+title: Tasks
+header_color: w3-green
+bottom_btn_color: w3-dark-gray
+all_items_url: /task/list/1/start/DESC
+new_item_url: /task/add
+form_type: tabbed
+form_fields: [{"title": "Project Title", "field": "project_id", "type": "dropdown"}, {"title": "Title", "field": "title", "type": "text"}, {"title": "Description", "field": "description", "type": "textarea"}, {"title": "Status", "field": "status", "type": "dropdown"}, {"title": "Type", "field": "type", "dropdown"}, {"title": "Start", "field": "start", "type": "datetime"}, {"title": "End", "field": "end", "type": "datetime"}, {"title": "Estimated Completion Date", "field": "estimated_completion_date", "type": "date"}, {"title": "Checklist", "field": "", "type": "checklist"}, {"title": "Notes", "field": "notes", "type": "textarea"}, {"title": "Links", "field": "links", "type": "textarea"}]
+tabs: [{"title": "General", "fields": "title,description,status,type"}, {"title": "Dates", "fields": "start,end,estimated_completion_date"}, {"title": "Checklist", "fields": "checklists"}, {"title": "Notes", "fields": "notes,links"}]

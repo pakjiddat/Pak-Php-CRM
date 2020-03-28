@@ -1,0 +1,23 @@
+/**************************Alert Boxes*******************************/
+#alert-box {
+  width: 300px;
+  z-index: 1000;
+  position: absolute;
+}
+/**************************Tabs*************************************/
+.tabs {
+  height: 400px;
+  width: 450px;
+  overflow-y: auto;
+}
+/**************************Table*************************************/
+td {
+  cursor: pointer;
+}
+/**************************Form*************************************/
+.view-text, #checklist li {
+  font-weight: bold;
+}
+.form-title {
+  cursor: move;
+}

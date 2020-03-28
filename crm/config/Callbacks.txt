@@ -1,0 +1,11 @@
+url: ^/?$
+callback: {"object": "dashboard", "function": "Generate"}
+
+url: ^/login$
+callback: {"object": "login", "function": "Generate"}
+
+url: ^/logout$
+callback: {"object": "sessionhandling", "function": "Logout"}
+
+url: ^/login/validate$
+callback: {"object": "sessionhandling", "function": "ValidateLoginCredentials"}
