@@ -1,5 +1,3 @@
-Title: Pak Php CRM
-
 <h3>Introduction</h3>
 <p id="pak-php-crm-screen"><img src="https://www.pakjiddat.pk/pakjiddat/ui/images/pak-php-crm.png" alt="Pak Php CRM"/></p>
 
@@ -32,10 +30,10 @@ The main idea behind the Pak Php CRM is to provide a simple application for mana
 <ul>
 <li>Download the <a href="https://github.com/nadirlc/pak-php-crm.git">source code</a> from GitHub</li>
 <li>Move the source code to the document root of a virtual host</li>
-<li>Create a database and import the contents of the file: crm/data/pak-php-crm.sql to the database. Note down the credentials used for connecting to the database</li>
-<li>Enter the database credentials in the file crm/config/RequiredObjects.php</li>
-<li>In the file: crm/Config.php, on line 41 enter the domain names that will be used to access the website
-Customize the following variables in the file: crm/config/General.php. $config['app_name'], $config['dev_mode'] and $config['site_url']</li>
-<li>Set the $config['pear_folder_path'] variable in the file: crm/config/Path.php. The variable should be set to the path of the pear installation.</li>
+<li>Create a database and import the contents of the file: <b>crm/data/pak-php-crm.sql</b> to the database. Note down the credentials used for connecting to the database</li>
+<li>Enter the database credentials in the file <b>crm/config/RequiredObjects.php</b></li>
+<li>In the file: <b>crm/Config.php</b>, on <b>line 41</b> enter the domain names that will be used to access the website
+<li>Customize the following variables in the file: <b>crm/config/General.php. $config['app_name'], $config['dev_mode'] and $config['site_url']</b></li>
+<li>Set the <b>$config['pear_folder_path']</b> variable in the file: <b>crm/config/Path.php</b>. The variable should be set to the path of the pear installation.</li>
 <li>Visit the website in a browser</li>
 </ul>
