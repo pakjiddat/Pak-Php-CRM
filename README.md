@@ -1,9 +1,9 @@
 <h3>Introduction</h3>
-<p id="pak-php-crm-screen"><img src="https://pakjiddat.netlify.com/static/79dad2c608e61b0a7f3e2bc51e048830/8c557/pak-php-crm.png" alt="Pak Php CRM"/></p>
+<p id="pak-php-crm-screen"><img src="https://pakjiddat.netlify.app/static/79dad2c608e61b0a7f3e2bc51e048830/8c557/pak-php-crm.png" alt="Pak Php CRM"/></p>
 
 <p>Pak Php CRM is a simple web based task management application. It can be used by web developers to keep track of tasks, income, billing, goals and more.</p>
 
-<p>Pak Php CRM is written in Php language and uses MySQL for storing data. It is based on the <a href="https://pakjiddat.netlify.com/posts/pak-php-framework">Pak Php Framework</a>.</p>
+<p>Pak Php CRM is written in Php language and uses MySQL for storing data. It is based on the <a href="https://pakjiddat.netlify.app/posts/pak-php-framework">Pak Php Framework</a>.</p>
 
 <h3>Features</h3>
 <p>
